@@ -46,11 +46,29 @@ void loop()
  
    Serial.println(volts);
 
- if (volts>0.4)  {digitalWrite(led1, HIGH);} else {digitalWrite(led1, LOW);}
- if (volts>0.8) {digitalWrite(led2, HIGH);} else {digitalWrite(led2, LOW);}
- if (volts>1.2) {digitalWrite(led3, HIGH);} else {digitalWrite(led3, LOW);}
- if (volts>1.6) {digitalWrite(led4, HIGH);} else {digitalWrite(led4, LOW);}
- if (volts>2) {digitalWrite(led5, HIGH);} else {digitalWrite(led5, LOW);}
+ if (volts>0.4)  {
+  digitalWrite(led1, HIGH);
+  } else {
+    digitalWrite(led1, LOW);
+    }
+ if (volts>0.8) {
+  digitalWrite(led2, HIGH);
+  } else {
+    digitalWrite(led2, LOW);
+    }
+ if (volts>1.2) {
+  digitalWrite(led3, HIGH);
+  } else {
+    digitalWrite(led3, LOW);
+    }
+ if (volts>1.6) {
+  digitalWrite(led4, HIGH);
+  } else {digitalWrite(led4, LOW);
+  }
+ if (volts>2) {
+  digitalWrite(led5, HIGH);
+  } else {digitalWrite(led5, LOW);
+  }
 }
    
 
