@@ -1,0 +1,2 @@
+#Weather Broadcast Bot
+###This is an app that captures user's voice input of any city name and will return the weather info grabbed by Openweather API  for the user to know about the city they want to know the weather about.
