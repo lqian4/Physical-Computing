@@ -1,0 +1,3 @@
+# LED
+#### This is the code for the second week's project which I have created a basic Arduino circuit and have one LED connected to it. The final outcome is for the LED to be able to blink resulting from what signal has been sent through the computer.
+#### The code is based on the example given from the Arduino and I made some slight change to it to make it work so it can respond to the Arduino app.
